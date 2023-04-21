@@ -1,0 +1,7 @@
+flask
+pandas
+goose3
+nltk
+scikit-learn
+gunicorn
+scipy 
