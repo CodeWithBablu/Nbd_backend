@@ -59,7 +59,7 @@ def article():
     # Put article link in front of url in '' single quotes
     if request.method == 'POST':
 
-        URL = request.json
+        URL = request.json["URL"]
         print("URL :: ", URL)
 
         goose = Goose()
